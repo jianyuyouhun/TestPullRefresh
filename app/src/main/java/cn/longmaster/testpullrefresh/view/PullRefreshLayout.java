@@ -39,7 +39,7 @@ public class PullRefreshLayout extends ViewGroup {
             maxOffsetTop = 0,
             maxOffsetBottom = 0;
 
-    private boolean
+    private boolean//刷新头/尾是否与内容滚动分离，false表示一起滑动，true表示单独滑动
             fixedContentLeft = false,
             fixedContentRight = false,
             fixedContentTop = false,
