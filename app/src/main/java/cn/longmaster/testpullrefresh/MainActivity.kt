@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
                     else
                         header.text = "下拉刷新"
                 }
+                PullRefreshLayout.PullType.TYPE_EDGE_BOTTOM -> {
+                    if (fraction == 1f)
+                        footer.text = "松开加载"
+                    else
+                        footer.text = "上拉加载"
+                }
             }
         }
         pullRefreshLayout.setOnTriggerListener {
@@ -30,10 +36,13 @@ class MainActivity : AppCompatActivity() {
                 PullRefreshLayout.PullType.TYPE_EDGE_TOP -> {
                     header.text = "正在刷新"
                 }
+                PullRefreshLayout.PullType.TYPE_EDGE_BOTTOM -> {
+                    footer.text = "正在加载"
+                }
             }
             postDelayed( {
                 pullRefreshLayout.stopRefresh()
-            }, 2000)
+            }, 3000)
         }
     }
 }

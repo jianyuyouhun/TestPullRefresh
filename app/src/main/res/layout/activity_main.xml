@@ -8,7 +8,9 @@
     android:layout_height="match_parent"
     app:fixed_content_top="false"
     app:max_offset_top="100dp"
+    app:max_offset_bottom="75dp"
     app:trigger_offset_top="50dp"
+    app:trigger_offset_bottom="50dp"
     tools:context="cn.longmaster.testpullrefresh.MainActivity">
 
     <TextView
@@ -21,6 +23,17 @@
         android:text="下拉刷新"
         android:textColor="#ffffff"
         app:layout_type="edge_top"/>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#33000000"
+        android:gravity="center|top"
+        android:padding="15dp"
+        android:text="上拉加载"
+        android:textColor="#ffffff"
+        app:layout_type="edge_bottom"/>
 
     <ListView
         android:id="@+id/listView"

@@ -380,7 +380,7 @@ public class PullRefreshLayout extends ViewGroup {
                     triggerOffset = triggerOffsetLeft;
                     break;
                 case TYPE_EDGE_RIGHT:
-                    triggerOffset = triggerOffsetRight;
+                    triggerOffset = -triggerOffsetRight;
                     break;
                 default:
                     triggerOffset = 0;
@@ -452,7 +452,7 @@ public class PullRefreshLayout extends ViewGroup {
                     triggerOffset = triggerOffsetTop;
                     break;
                 case TYPE_EDGE_BOTTOM:
-                    triggerOffset = triggerOffsetBottom;
+                    triggerOffset = -triggerOffsetBottom;
                     break;
                 default:
                     triggerOffset = 0;
