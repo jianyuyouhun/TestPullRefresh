@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "cn.longmaster.testpullrefresh"
+        applicationId "com.jianyuyouhun.testpullrefresh"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1

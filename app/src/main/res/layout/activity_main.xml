@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cn.longmaster.testpullrefresh.view.PullRefreshLayout
+<com.jianyuyouhun.testpullrefresh.view.PullRefreshLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,7 +11,7 @@
     app:max_offset_bottom="75dp"
     app:trigger_offset_top="50dp"
     app:trigger_offset_bottom="50dp"
-    tools:context="cn.longmaster.testpullrefresh.MainActivity">
+    tools:context="com.jianyuyouhun.testpullrefresh.MainActivity">
 
     <TextView
         android:id="@+id/header"
@@ -43,5 +43,5 @@
         app:layout_type="content"
         tools:listitem="@layout/item_string"/>
 
-</cn.longmaster.testpullrefresh.view.PullRefreshLayout>
+</com.jianyuyouhun.testpullrefresh.view.PullRefreshLayout>
 

@@ -1,4 +1,4 @@
-package cn.longmaster.testpullrefresh
+package com.jianyuyouhun.testpullrefresh
 
 import android.content.Context
 import android.os.Bundle
@@ -9,8 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import cn.longmaster.testpullrefresh.view.PullRefreshLayout
-import kotlinx.android.synthetic.main.activity_main.*
+import com.jianyuyouhun.testpullrefresh.view.PullRefreshLayout
 import kotlinx.android.synthetic.main.activity_recycler.*
 
 /**

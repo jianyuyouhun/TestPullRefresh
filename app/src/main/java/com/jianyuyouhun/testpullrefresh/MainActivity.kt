@@ -1,9 +1,9 @@
-package cn.longmaster.testpullrefresh
+package com.jianyuyouhun.testpullrefresh
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import cn.longmaster.testpullrefresh.view.PullRefreshLayout
+import com.jianyuyouhun.testpullrefresh.view.PullRefreshLayout
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

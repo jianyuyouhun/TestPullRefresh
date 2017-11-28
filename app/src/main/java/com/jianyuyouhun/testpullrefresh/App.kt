@@ -1,4 +1,4 @@
-package cn.longmaster.testpullrefresh
+package com.jianyuyouhun.testpullrefresh
 
 import android.app.Application
 import android.os.Handler

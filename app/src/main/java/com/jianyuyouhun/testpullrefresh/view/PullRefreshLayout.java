@@ -1,4 +1,4 @@
-package cn.longmaster.testpullrefresh.view;
+package com.jianyuyouhun.testpullrefresh.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -14,11 +14,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 
+import com.jianyuyouhun.testpullrefresh.R;
+
 import java.util.HashMap;
 
-import cn.longmaster.testpullrefresh.R;
+import static com.jianyuyouhun.testpullrefresh.view.PullRefreshLayout.PullType.TYPE_CONTENT;
 
-import static cn.longmaster.testpullrefresh.view.PullRefreshLayout.PullType.TYPE_CONTENT;
 
 /**
  * 下拉刷新控件
