@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.longmaster.testpullrefresh.view.PullRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pullRefreshLayout_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:max_offset_left="70dp"
+    app:max_offset_right="70dp"
+    app:trigger_offset_left="50dp"
+    app:trigger_offset_right="50dp"
+    tools:context="cn.longmaster.testpullrefresh.RecyclerViewActivity">
+
+    <TextView
+        android:id="@+id/header_horizontal"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        android:gravity="center|right"
+        android:padding="15dp"
+        android:text=">>"
+        android:textColor="#ffffff"
+        app:layout_type="edge_left"/>
+
+    <TextView
+        android:id="@+id/footer_horizontal"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        android:gravity="center|left"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        app:layout_type="edge_right"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        app:layout_type="content"
+        tools:listitem="@layout/item_string_horizontal"/>
+
+</cn.longmaster.testpullrefresh.view.PullRefreshLayout>
+

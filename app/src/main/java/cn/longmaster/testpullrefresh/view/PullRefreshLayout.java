@@ -173,7 +173,7 @@ public class PullRefreshLayout extends ViewGroup {
                 case TYPE_EDGE_BOTTOM:
                     childViewAttr.size = view.getMeasuredHeight() + lp.topMargin + lp.bottomMargin;
                     triggerOffsetTop = triggerOffsetTop < 0 ? childViewAttr.size / 2 : triggerOffsetTop;
-                    triggerOffsetBottom = triggerOffsetBottom < 0 ? childViewAttr.size / 2 : triggerOffsetRight;
+                    triggerOffsetBottom = triggerOffsetBottom < 0 ? childViewAttr.size / 2 : triggerOffsetBottom;
                     maxOffsetTop = maxOffsetTop < 0 ? childViewAttr.size : maxOffsetTop;
                     maxOffsetBottom = maxOffsetBottom < 0 ? childViewAttr.size : maxOffsetBottom;
                     break;
